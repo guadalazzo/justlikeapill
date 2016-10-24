@@ -1,3 +1,8 @@
+*{
+	margin: 0;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding: 0;
+}
 .vertical-align{
 	display: flex;
 	align-items: center;
@@ -6,4 +11,25 @@
 }
 .background{
 	background: #ECCEF5;
+}
+.widletitle{
+	font-family: 'Source Sans Pro', sans-serif;
+	background: black;
+	color:lightgrey;
+	padding: 0px;
+	border-radius: 5px;
+	text-align: center	;
+	text-transform: uppercase;
+
+}
+.boxtext{
+	background: white;
+	padding: 0px auto;
+	color: black;
+}
+.top-column
+{
+    float: none;
+    display: table-cell;
+    vertical-align: top;
 }
